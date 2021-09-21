@@ -8,6 +8,8 @@ void setup() {
   background(0);
 }
 void draw() {
+  fill(0,0,0,5);
+  rect(-10,-10,310,310);
   stroke((float)(Math.random()*255), (float)(Math.random()*255), (float)(Math.random()*255));
   while (endX<310) {
     endX = startX+(int)(Math.random()*10);
